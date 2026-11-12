@@ -1,0 +1,50 @@
+.hero-hotel {
+  min-height: 85vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-hotel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-contenido {
+  position: relative;
+  z-index: 1;
+  color: white;
+  max-width: 1100px;
+}
+
+.hero-contenido h1 {
+  max-width: 750px;
+}
+
+.hero-subtitulo {
+  color: blanchedalmond;
+  letter-spacing: 3px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  color: white;
+  border: none;
+  background-color: #e18f1c;
+}
+
+.hero-btn:hover {
+  color: white;
+  background-color: #ffa42d;
+}
+
+.btn.hero-btn:active {
+  color: white;
+  background-color: #ffa42d;
+  border-color: #ffa42d;
+}
